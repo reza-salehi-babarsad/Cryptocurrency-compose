@@ -1,4 +1,4 @@
-package com.rezoo.cryptocurrency_compose
+package com.rezoo.cryptocurrency_compose.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
