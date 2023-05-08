@@ -20,7 +20,7 @@ object AppModule {
     @Singleton
     fun providePaprikaApi():CoinPaprikaApi{
         return Retrofit.Builder()
-            .baseUrl(Constants.Base_URL)
+            .baseUrl("https://api.coinpaprika.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(CoinPaprikaApi::class.java)
